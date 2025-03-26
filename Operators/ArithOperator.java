@@ -24,8 +24,8 @@ public class ArithOperator {
 		byte x=a+b;
 		System.out.println(x);
 		**/
-		int _ = 10;
-		System.out.println(_);
+		//int _ = 10; error
+		//System.out.println(_);  error
 		
 
 	}
