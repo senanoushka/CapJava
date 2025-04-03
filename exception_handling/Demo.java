@@ -25,7 +25,7 @@ public class Demo {
 			System.out.println("Index out of bounds handled");
 		}
 		try{
-			Class.forName("Demo");     //unchecked exception
+			Class.forName("Demo");     //class not found exception
 		}
 		catch(Exception e) {
 			System.out.println("Excep handled");
