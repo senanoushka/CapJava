@@ -39,7 +39,7 @@ public class HashMapImplementation {
 		System.out.println("Not found");	
 	}
 	
-	public void display() {
+	public void display() {          //O(n^2) operation
 		System.out.println("Displaying map");
 		for (int i=0; i<size; i++) {
 			Entry current=bucket[i];
@@ -76,6 +76,9 @@ public class HashMapImplementation {
 		map.display();
 		System.out.println("--------------------------------");
 		map.remove(50);
+		map.display();
+		System.out.println("--------------------------------");
+		map.remove(10);
 		map.display();
 	}
 }
