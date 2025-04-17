@@ -1,8 +1,8 @@
 package list;
 
 public class Employee implements Comparable<Employee> {
-	int id;
-	String name;
+	public int id;
+	public String name;
 	
 	public Employee(int id, String name) {
 		this.id=id;

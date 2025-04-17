@@ -103,5 +103,7 @@ public class LLDemo {
 		llist.remove(2);
 		System.out.println(llist);
 		
+		
+		
 	}
 }
