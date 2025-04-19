@@ -11,7 +11,6 @@ public class Demo {
 		queue.add(9);
 		queue.add(7);
 		queue.add(5);
-		
 		System.out.println(queue);
 		
 
