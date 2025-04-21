@@ -17,6 +17,15 @@ public class LambdaDriver {
 		System.out.println(d3.check(10,20));
 		
 		ArrayList<Integer> arr=new ArrayList<>();
+		arr.add(1);
+		arr.add(2);
+		arr.add(3);
+		arr.add(4);
+		arr.add(5);
+		
+		
+//		System.out.println(arr);
+//		Comparator<Integer> c= -
 		
 	}
 	
