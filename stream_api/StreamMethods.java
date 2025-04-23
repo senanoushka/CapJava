@@ -42,7 +42,7 @@ public class StreamMethods {
 //		error because return type of last method is void not stream, so cannot store in stream type
 //		return type of last method is what is considered
 		
-		System.out.println("------------------------------------------");
+		System.out.println("----------------------------------------------");
 		
 		//min
 		Optional<Integer>optional = l1.stream().distinct().min((o1,o2)->o1-o2);
